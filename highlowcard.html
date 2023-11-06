@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone - Higher or Lower Game!</title>
+    <link href="highlowcard.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="paragraph">
+            <p class="instructions">
+            You are tasked with building a Higher or Lower Guessing Game!
+            <br> 
+            The application should allow a user to: 
+            <br>
+            Submit a number as their guess and receive response that their guess needs to be "higher" or "lower".
+            <br> 
+            When the user guesses the correct number, the app should congratulate them.
+            <br>
+            Bonus:Generate a random number every time the users plays the game.
+            </p>
+        </div>
+        <div class="gamebox">
+            <label class="instructions" for="numberinput">Guess a number between 1&10 </label>
+            <br>
+            <input class="textboxstyle" type="text" name="number" id="numberinput" value="">
+            <input class="buttonstyle" type="button" value="Enter Guess!" onclick="checkNumber()" id="guessbutton">
+        </div>
+        <div class="gamebutton">
+            <input class="buttonstyle" type="button" value="Play Again!" onclick="resetGame()" id="playagainbutton">
+        </div>
+    </div>
+    <script src="highlowcard.js"></script>
+</body>
+</html>

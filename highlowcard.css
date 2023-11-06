@@ -1,0 +1,44 @@
+body{   background-color: antiquewhite;
+        background-image: url(/IntroJS/HighLowCard/assets/ACNHhighlowcard.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.instructions{
+    color: orange;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+/* .paragraph{} */
+
+.gamebox{   
+    grid-row: 7 / 8 ;
+    grid-column: 6 / 7 ;
+    border-radius: 5px;
+    color: orange;
+}
+    
+.gamebutton{
+    grid-row: 8 / 9;
+    grid-column: 7 / 8;
+}
+
+.buttonstyle{
+    background-color: rgb(250, 123, 77); color: black;
+    border-radius: 5px; 
+    border: solid orange;
+}
+
+.textboxstyle{
+    width: 30px;
+    height: 20px;
+    border: solid rgb(250, 153, 117) 3px;
+    border-radius: 3px;
+}
