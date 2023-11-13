@@ -1,5 +1,5 @@
 body{   background-color: antiquewhite;
-        background-image: url(/IntroJS/HighLowCard/assets/ACNHhighlowcard.png);
+        background-image: url(assets/ACNHhighlowcard.png);
         background-repeat: no-repeat;
         background-size: cover;
 }
@@ -8,15 +8,12 @@ body{   background-color: antiquewhite;
     color: orange;
 }
 
-
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 100vh;
 }
-
-/* .paragraph{} */
 
 .gamebox{   
     grid-row: 7 / 8 ;
